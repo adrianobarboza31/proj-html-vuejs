@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="layover">
-            <div class="ab-container d-flex justify-content-between align-items-end pt-4 pb-4 ">
+            <div class="ab-container d-flex justify-content-between align-items-center pt-4 pb-4 ">
             <div>
                 <div>
                     <img src="/img/avada-drivers-logo-2x-300x58.png" alt="">
@@ -15,13 +15,14 @@
             </div>
             <div>
                 <ul class="d-flex">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Prices</li>
-                        <li>Courses</li>
-                        <li>Locations</li>
-                        <li>Blog</li>
-                        <li>Book Now</li>
+                    
+                        <li><strong>Home</strong></li>
+                        <li><strong>About</strong></li>
+                        <li><strong>Prices</strong></li>
+                        <li><strong>Courses</strong></li>
+                        <li><strong>Locations</strong></li>
+                        <li><strong>Blog</strong></li>
+                        <li><strong>Book Now</strong></li>
                 </ul>
             </div>
         </div>
@@ -48,7 +49,14 @@
 li{
     list-style: none;
     color: white;
-    padding: 0 20px;
+    padding: 10px 25px;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 12px;
+}
+li:last-child{
+    background-color:#7ABC64 ;
+    border-radius: 20px;
 }
 img{
     width: 200px;

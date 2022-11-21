@@ -22,4 +22,7 @@ div{
 .ab-hero{
     min-height: 500px;
 }
+h1{
+    font-size: 50px;
+}
 </style>
