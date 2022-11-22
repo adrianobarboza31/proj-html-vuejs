@@ -185,7 +185,7 @@ h5{
 }
 .sfondo{
     background-image: url('/img/promise-background.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
     }
