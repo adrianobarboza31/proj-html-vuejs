@@ -1,5 +1,5 @@
 <template>
-    <div class="ab-container d-flex mb-5">
+    <div class="ab-container d-flex mb-5 giu">
         <div class="ab-card pt-5">
             <h2 class="pt-3 pb-3">Get Behind The Wheel</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi nesciunt sequi dicta. Repellendus perspiciatis aspernatur, commodi maiores sed animi nostrum.</p>
@@ -78,5 +78,8 @@ span{
     border-radius: 15px;
     text-transform: uppercase;
     font-size: 13px;
+}
+.giu{
+    padding-bottom: 100px;
 }
 </style>
