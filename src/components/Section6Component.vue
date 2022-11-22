@@ -1,6 +1,6 @@
 <template>
-    <div class="sfondo">
-        <div class="ab-container relative">
+    <div class="sfondo ">
+        <div class="ab-container relative ">
             <div class="ass">
                 <div class="ab-card  pt-4">
                 <h2 class="text-center pt-5">Latest News</h2>
@@ -32,7 +32,7 @@
                     <span>More from the blog</span>
                 </div>
             </div>
-            <div>
+            <div class="">
                 <img src="/img/latestnews-bottom.png" alt="">
             </div>
             </div>
@@ -50,7 +50,7 @@
 <style lang="scss" scoped>
 .sfondo{
     background-image:url('/img/latestnews-background.jpg') ;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     }
     .ab-card{
