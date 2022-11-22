@@ -26,7 +26,7 @@ import Section4Component from './Section4Component.vue';
       Section4Component,
       Section5Component,
       Section6Component,
-      Section7Component
+      Section7Component,
     }
   }
 </script>
