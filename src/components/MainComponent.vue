@@ -5,10 +5,12 @@
     <Section3Component/>
     <Section4Component/>
     <Section5Component/>
+    <Section6Component/>
   </div>
 </template>
 
 <script>
+import Section6Component from './Section6Component.vue';
 import Section5Component from './Section5Component.vue';
 import Section3Component from './Section3Component.vue';
 import Section1Component from './Section1Component.vue';
@@ -20,7 +22,8 @@ import Section4Component from './Section4Component.vue';
       Section2Component,
       Section3Component,
       Section4Component,
-      Section5Component
+      Section5Component,
+      Section6Component
     }
   }
 </script>
