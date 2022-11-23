@@ -14,21 +14,30 @@
             </div>
             <div class="cardcar d-flex justify-content-end pb-5">
                 <div class="cardscar text-center">
-                    <img src="/img/courses-passplus-400x399.jpg" alt="">
+                    <div class="massimo"> 
+                        <img src="/img/courses-passplus-400x399.jpg" alt="">
+                    </div>
+                   
                     <h5>Pass Plus</h5>
                     <span>
                         <strong>Learn More</strong>
                         </span>
                 </div>
                 <div class="cardscar text-center">
-                    <img src="/img/course-intensive-400x399.jpg" alt="">
+                    <div class="massimo">
+                        <img src="/img/course-intensive-400x399.jpg" alt="">
+                    </div>
+                   
                     <h5>Intensive Course</h5>
                     <span>
                         <strong>Learn More</strong>
                         </span>
                 </div>
                 <div class="cardscar text-center">
-                    <img src="/img/courses-instructor-400x400.jpg" alt="">
+                    <div class="massimo">
+                        <img src="/img/courses-instructor-400x400.jpg" alt="">
+                    </div>
+                    
                     <h5>Instructors</h5>
                     <span>
                         <strong>Learn More</strong>
@@ -47,6 +56,11 @@
 </script>
 
 <style lang="scss" scoped>
+.massimo{
+    width: 100%;
+    overflow: hidden;
+    height: 226px;
+}
 .relative{
     position: relative;
 }
@@ -54,7 +68,9 @@
     position: absolute;
     left: 0;
     top:0;
-    width: 15%;
+    width: 17%;
+   border-top-left-radius: 10px;
+   max-width: 100%;
 }
 .cardcourse p{
   line-height: 2;
@@ -62,6 +78,10 @@
 .cardcourse span{
     padding: 12px 40px;
     font-size: 14px;
+    transition: 0.3s;
+}
+.cardcourse span:hover{
+    filter: contrast(1.50);
 }
 .cardcourse{
     width: 23%;
@@ -99,9 +119,19 @@ h3{
 }
 .cardscar{
     width: calc((60% - 60px) / 3);
-    padding-left: 20px;
-    padding-top: 70px;
-   
+    margin-left: 20px;
+    // padding-top: 70px;
+    margin-top: 70px;
+   overflow: hidden;
+   padding-bottom: 20px;
+}
+.cardscar img:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.cardscar img{
+    width: 100%;
+    transition: all .3s ease-in-out;
 }
 img{
     max-width: 100%;
@@ -110,6 +140,11 @@ div.cardcar span{
     background-color: white;
     color: #7f9ea8;
     border: 3px solid #7f9ea8;
+    transition: 0.3s;
+}
+div.cardcar span:hover{
+    border-color: #7ABC64;
+    color: #7ABC64;
 }
 h5{
     color: #7f9ea8;

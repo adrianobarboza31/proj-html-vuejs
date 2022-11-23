@@ -86,6 +86,10 @@
         padding: 10px 30px;
         border-radius: 20px;
         text-transform: uppercase;
+        transition: 0.3s;
+    }
+    span:hover{
+        filter: contrast(1.50);
     }
     img{
         max-width: 100%;

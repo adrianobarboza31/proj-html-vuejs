@@ -38,6 +38,10 @@ span{
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+    transition: 0.3s;
+}
+span:hover{
+    filter: contrast(1.50);
 }
 p{
     font-size: 13px;

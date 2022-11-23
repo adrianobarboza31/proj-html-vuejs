@@ -8,7 +8,7 @@
                     </div>
                     </div>
                     
-                    <div class="pb-5">pass rate</div>
+                    <div class=" pt-3 ab-down">pass rate</div>
                 </div>
                 <div class="ab-cards text-center">
                     <div class="d-flex justify-content-center pt-5 pb-4">
@@ -17,7 +17,7 @@
                     </div>
                     </div>
                     
-                    <div class="pb-5">referral rate</div>
+                    <div class=" pt-3 ab-down">referral rate</div>
                 </div>
                 <div class="ab-cards text-center ">
                     <div class="d-flex justify-content-center align-items-center pt-5 pb-4">
@@ -26,14 +26,14 @@
                     </div>
                     </div>
                    
-                    <div class="pb-5">accident rate</div>
+                    <div class=" pt-3 ab-down">accident rate</div>
                 </div>
             </div>
             <div class="pt-5 bo">
                 <h2 class="pt-5 pb-4">Your Instructors</h2>
-                <div class="d-flex">
+                <div class="d-flex  ">
                     <div class="instructorsbox1">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi deleniti fuga atque saepe voluptates veritatis voluptatibus dolore adipisci molestias ab.
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi deleniti fuga atque saepe voluptates veritatis voluptatibus dolore adipisci molestias ab.</p>     
                     </div>
                     <div class="instructorsbox2">
                         <span>more about us</span>
@@ -104,6 +104,7 @@
 .relative{
     position: relative;
 }
+
 .cardcourse{
     width: 25%;
     box-shadow: 0px 0px 10px 1px #888888;
@@ -121,25 +122,8 @@ span{
     font-size: 12px;
     border-radius: 15px;
 }
-.cardcourse h3{
-    padding-bottom: 20px;
-}
-.cardcourse p{
-    margin-bottom: 40px;
-    color: #888888;
-    font-size: 12px;
-    padding: 0 40px;
-}
-.cardcar{
-    width: 100%;
-    
-}
-.cardscar{
-    width: calc((65% - 60px) / 3);
-    padding-left: 20px;
-    padding-top: 70px;
-   
-}
+ 
+
 img{
     max-width: 100%;
 }
@@ -166,10 +150,14 @@ h5{
         border-radius: 8px;
        margin: 0 5px;
        background-color: white;
+       color: #7f9ea8;
+       font-size: 18px;
+       text-transform: uppercase;
+       font-weight: 600;
     }
     .loader{
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         border: 10px solid #F7F7F7;
         border-top-color:#7ABC64;
         border-bottom-color: #7ABC64;
@@ -177,14 +165,14 @@ h5{
         border-radius: 50%;
     }
     .loader2{
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         border: 10px solid #7ABC64;
        border-radius: 50%;
     }
     .loader3{
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         border: 10px solid #F7F7F7;
         border-top-color: #7ABC64;
         border-radius: 50%;
@@ -201,24 +189,55 @@ h5{
 
     }
     .instructorsbox2 span{
-        padding: 10px 110px;
+        transition: 0.3s;
+    }
+    .instructorsbox2 span:hover{
+    filter: contrast(1.50);
+}
+    .instructorsbox2 span{
+        padding: 13px 130px;
+       font-size: 15px;
+       font-weight: 600;
     }
     .ab-cards img{
         max-width: 80%;
     }
     i{
         padding: 0 10px;
+        padding-top: 15px;
+        font-size: 15px;
     }
     .ab-cards p{
-        font-size: 14px;
+        font-size: 13px;
         color: #888888;
         padding: 0 50px;
     }
     .ass{
         position: absolute;
-        top:650px
+        top:740px
     }
     .bo{
         padding-bottom: 450px;
+    }
+    .loader,.loader2,.loader3 {
+        color: #7f9ea8;
+        font-size: 50px;
+    }
+    .loader3 div{
+        color: #7f9ea8;
+        font-size: 50px;
+    }
+    .ab-down{
+        padding-bottom: 70px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .instructorsbox1 p{
+        line-height: 2;
+        font-size: 20px;
+    }
+    strong{
+        font-weight: 700;
     }
 </style>
