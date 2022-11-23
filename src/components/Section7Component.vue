@@ -32,7 +32,7 @@ input{
     border: 2px solid #e5e8eb;
 }
 span{
-    background-color: #7ABC64;
+    background-color: #333333;
     padding: 10px 250px;
     border-radius: 40px;
     color: white;

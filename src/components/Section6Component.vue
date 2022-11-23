@@ -68,7 +68,7 @@
         width: 85%;
     }
     strong{
-        color: #7ABC64;
+        color: #333333;
         font-size: 23px;
         font-weight: 500;
     }
@@ -80,7 +80,7 @@
         color: gray;
     }
     span{
-        background-color: #7ABC64;
+        background-color: #333333;
         color: white;
         font-weight: 600;
         padding: 10px 30px;
@@ -103,7 +103,7 @@
     }
     .ab-cards span{
         background-color: white;
-        color: #7ABC64;
+        color: #333333;
         padding: 0 0;
     }
     h2{

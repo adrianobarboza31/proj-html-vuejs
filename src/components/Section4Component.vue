@@ -115,7 +115,7 @@
     padding-top: 40px;
 }
 span{
-    background-color: #7ABC64;
+    background-color: #333333;
     color: white;
     padding: 7px 17px;
     text-transform: uppercase;
@@ -146,7 +146,7 @@ h5{
     .ab-cards{
         box-shadow: 0px 0px 10px 1px #888888;
         width: calc((100% - 30px) / 3);
-        border-top: 5px solid #7ABC64;
+        border-top: 5px solid #333333;
         border-radius: 8px;
        margin: 0 5px;
        background-color: white;
@@ -174,7 +174,7 @@ h5{
         width: 220px;
         height: 220px;
         border: 10px solid #F7F7F7;
-        border-top-color: #7ABC64;
+        border-top-color: #7ABC64 ;
         border-radius: 50%;
     }
     .loader,.loader2,.loader3 div{

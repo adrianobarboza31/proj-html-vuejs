@@ -73,7 +73,7 @@ li:first-child::after{
 //     border-radius: 20px;
 // }
 span{
-    background-color:#7ABC64 ;
+    background-color:#333333 ;
      border-radius: 20px;
      padding: 10px 30px;
      transition: 0.3s;

@@ -44,7 +44,7 @@ p:last-child{
     padding-right: 30px;
 }
 h3{
-    color: #85b680;
+    color: #333333;
     padding: 25px 0;
 }
 .inputcard{
@@ -74,7 +74,7 @@ input{
     padding: 15px 8px;
 }
 span{
-    background-color: #7ABC64;
+    background-color: #333333;
     color: white;
     padding: 10px 30px;
     border-radius: 15px;

@@ -94,7 +94,7 @@
     padding-bottom: 80px;
 }
 span{
-    background-color: #7ABC64;
+    background-color: #333333;
     color: white;
     padding: 7px 20px;
     text-transform: uppercase;
@@ -143,8 +143,8 @@ div.cardcar span{
     transition: 0.3s;
 }
 div.cardcar span:hover{
-    border-color: #7ABC64;
-    color: #7ABC64;
+    border-color: #333333;
+    color: #333333;
 }
 h5{
     color: #7f9ea8;
