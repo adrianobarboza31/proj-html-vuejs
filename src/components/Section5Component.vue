@@ -14,7 +14,7 @@
         </p>
         <strong>{{testimonials[index].name}}</strong>
             <br>
-            <p ><span class="fa-circle"  v-for="(value,indexx) in testimonials" :key = "indexx" :class="indexx===[index] ? 'fa-solid':'fa-regular' " @click="corrente(value,indexx)"></span>
+            <p ><span class="fa-circle"  v-for="(value,indexx) in testimonials" :key = "indexx" :class="indexx == index ? 'fa-solid' :'fa-regular' " @click="corrente(value,indexx)"></span>
             </p>
         </div>
         
@@ -54,6 +54,7 @@
             corrente(value,indexx){
                 this.index=indexx
                 console.log(this.index)
+                console.log(indexx)
             },
             avanti(){
                 this.index=this.index+1
