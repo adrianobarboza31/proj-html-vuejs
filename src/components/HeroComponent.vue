@@ -23,6 +23,9 @@ div{
     min-height: 500px;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
+}
+p{
+    font-size: 22px;
 }
 </style>

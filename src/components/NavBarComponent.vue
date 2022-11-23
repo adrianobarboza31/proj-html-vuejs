@@ -7,24 +7,27 @@
             </div>
         </div>
         <div class="layover">
-            <div class="ab-container d-flex justify-content-between align-items-center pt-4 pb-4 ">
-            <div>
-                <div>
+            <div class="ab-container d-flex justify-content-between align-items-start pt-4 pb-4 ">
+            
+          
                     <img src="/img/avada-drivers-logo-2x-300x58.png" alt="">
-                </div>
-            </div>
-            <div>
-                <ul class="d-flex">
+            
+        
+            <ul class="d-flex ">
                     
-                        <li><strong>Home</strong></li>
-                        <li><strong>About</strong></li>
-                        <li><strong>Prices</strong></li>
-                        <li><strong>Courses</strong></li>
-                        <li><strong>Locations</strong></li>
-                        <li><strong>Blog</strong></li>
-                        <li><strong>Book Now</strong></li>
-                </ul>
-            </div>
+                    <li>Home</li>
+                    <li><strong>About</strong></li>
+                    <li><strong>Prices</strong></li>
+                    <li><strong>Courses</strong></li>
+                    <li><strong>Locations</strong></li>
+                    <li><strong>Blog</strong></li>
+                    <li>
+                      <span> Book Now</span> </li>
+            </ul>
+    
+           
+                
+           
         </div>
         </div>
         
@@ -52,16 +55,57 @@ li{
     padding: 10px 25px;
    text-transform: uppercase;
    font-weight: 500;
-   font-size: 12px;
+   font-size: 14px;
 }
-li:last-child{
+li:first-child{
+    color: #7ABC64;
+}
+li:first-child::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color:#7ABC64  ;
+    margin-top: 10px;
+}
+// li:last-child{
+//     background-color:#7ABC64 ;
+//     border-radius: 20px;
+// }
+span{
     background-color:#7ABC64 ;
-    border-radius: 20px;
+     border-radius: 20px;
+     padding: 10px 30px;
+     transition: 0.3s;
+   
+}
+span:hover{
+    filter: contrast(1.50);
 }
 img{
-    width: 200px;
+    width: 250px;
 }
 .layover{
     background-color: rgba(53, 54, 55, 0.4);
+}
+strong::after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 3px;
+    background-color:#7ABC64  ;
+    margin-top: 10px;
+   
+}
+
+strong:hover::after {
+    display: block;
+}
+strong:hover{
+    color: #7ABC64;
+}
+strong{
+    transition-duration: .2s;
+    transition-timing-function: linear;
 }
 </style>

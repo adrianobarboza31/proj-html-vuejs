@@ -2,10 +2,15 @@
     <div class="relative sfondo">
         <img src="" alt="">
         <div class="ab-container">
-            <div class="cardcourse text-center pb-5">
-                <h3>Courses</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum cupiditate assume praesentium nobis cumque quae culpa. Facilis similique officiis tenetur cum! dsdadadadasd</p>
+           
+            <div class="cardcourse text-center ">
+                <img cl src="/img/new-corner.jpg" alt="">
+                    
+                    <h3>Courses</h3>
+                <p> placeat officiis perferendis nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nostrum cupiditate assume praesentium nobis cumque quae culpa. Facilis similique officiis tenetur cum! dsdadadadasd</p>
                 <span><strong>Course Information</strong></span>
+                
+                
             </div>
             <div class="cardcar d-flex justify-content-end pb-5">
                 <div class="cardscar text-center">
@@ -45,22 +50,39 @@
 .relative{
     position: relative;
 }
+.cardcourse img{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 15%;
+}
+.cardcourse p{
+  line-height: 2;
+}
+.cardcourse span{
+    padding: 12px 40px;
+    font-size: 14px;
+}
 .cardcourse{
-    width: 25%;
+    width: 23%;
     box-shadow: 0px 0px 10px 1px #888888;
     position: absolute;
     top: -20px;
     background-color: white;
     border-radius: 10px;
     padding-top: 40px;
+    padding-bottom: 80px;
 }
 span{
     background-color: #7ABC64;
     color: white;
-    padding: 7px 17px;
+    padding: 7px 20px;
     text-transform: uppercase;
     font-size: 12px;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+h3{
+    font-size: 40px;
 }
 .cardcourse h3{
     padding-bottom: 20px;
@@ -68,7 +90,7 @@ span{
 .cardcourse p{
     margin-bottom: 40px;
     color: #888888;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0 40px;
 }
 .cardcar{
@@ -76,7 +98,7 @@ span{
     
 }
 .cardscar{
-    width: calc((65% - 60px) / 3);
+    width: calc((60% - 60px) / 3);
     padding-left: 20px;
     padding-top: 70px;
    
